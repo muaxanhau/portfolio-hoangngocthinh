@@ -12,6 +12,7 @@ import useGlobalState from './store/globalStates/useGlobalStates'
 const App = () => {
   const { state, setState } = useGlobalState()
   useEffect(() => {
+    // setup for first start
     window.innerWidth <= Layout.smallWidthDevice &&
       state.isMenuOpen &&
       setState.setToggleMenu()
