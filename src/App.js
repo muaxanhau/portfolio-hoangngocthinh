@@ -17,9 +17,12 @@ const App = () => {
       setState.setToggleMenu()
 
     let hour = new Date().getHours()
-    DefaultValue.lightModeHourStart <= hour <= DefaultValue.lightModeHourEnd &&
-      !state.isNightMode &&
-      setState.setToggleNightMode()
+    let isMorning =
+      DefaultValue.lightModeHourStart <= hour &&
+      hour <= DefaultValue.lightModeHourEnd
+    isMorning
+      ? state.isNightMode && setState.setToggleNightMode()
+      : !state.isNightMode && setState.setToggleNightMode()
   }, [])
 
   return (
