@@ -17,7 +17,11 @@ const Backdrop = props => {
     <BackdropContainer>
       <BackdropC />
       <TextContainer>
-        <Title size='size-l' color={Color.color5}>
+        <Title
+          size='size-l'
+          colorLightMode={Color.color5}
+          colorNightMode={Color.color5}
+        >
           {title}
         </Title>
         {content && <Content>{content}</Content>}
