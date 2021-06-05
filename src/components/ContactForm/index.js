@@ -4,10 +4,10 @@ import {
   FormContainer,
   InputWrapperSpan1,
   InputWrapperSpan2,
-  Input,
   Textarea,
-  RequiredIcon
+  RequiredIconWrapper
 } from './ContactFormElements'
+import InputText from './../UI/InputText/index'
 import Button from './../Button/index'
 import Backdrop from './../Backdrop/index'
 import { BsArrowReturnLeft } from 'react-icons/bs'
@@ -39,9 +39,9 @@ const ContactForm = () => {
   }
   const alertRequired = errorType =>
     errorType === 'required' && (
-      <RequiredIcon isNightMode={state.isNightMode}>
+      <RequiredIconWrapper isNightMode={state.isNightMode}>
         <BsArrowReturnLeft size='100%' />
-      </RequiredIcon>
+      </RequiredIconWrapper>
     )
   useEffect(() => {
     isAlert &&
@@ -59,37 +59,35 @@ const ContactForm = () => {
         isMenuOpen={state.isMenuOpen}
       >
         <InputWrapperSpan1>
-          <Input
-            isNightMode={state.isNightMode}
+          <InputText
             placeholder='First Name'
-            type='text'
-            {...register('firstName', { required: true })}
+            label='firstName'
+            register={register}
+            required
           />
           {alertRequired(errors.firstName?.type)}
         </InputWrapperSpan1>
         <InputWrapperSpan1>
-          <Input
-            isNightMode={state.isNightMode}
+          <InputText
             placeholder='Last Name'
-            type='text'
-            {...register('lastName')}
+            label='lastName'
+            register={register}
           />
         </InputWrapperSpan1>
         <InputWrapperSpan1>
-          <Input
-            isNightMode={state.isNightMode}
+          <InputText
             placeholder='Email'
-            type='email'
-            {...register('email', { required: true })}
+            label='email'
+            register={register}
+            required
           />
           {alertRequired(errors.email?.type)}
         </InputWrapperSpan1>
         <InputWrapperSpan1>
-          <Input
-            isNightMode={state.isNightMode}
+          <InputText
             placeholder='Mobile No.'
-            type='text'
-            {...register('mobileNo')}
+            label='mobileNo'
+            register={register}
           />
         </InputWrapperSpan1>
         <InputWrapperSpan2 isMenuOpen={state.isMenuOpen}>

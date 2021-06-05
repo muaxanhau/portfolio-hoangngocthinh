@@ -81,7 +81,7 @@ export const Card3Data = [
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
     author: 'Annie Elert',
-    tag: 'Website Designer'
+    tag: 'Project Leader'
   },
   {
     imgSrc: ps2Img,
@@ -94,8 +94,8 @@ export const Card3Data = [
     imgSrc: ps3Img,
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
-    author: 'Mikasa Ackerman',
-    tag: 'Project Leader'
+    author: 'Mikasa',
+    tag: 'Website Designer'
   },
   {
     imgSrc: ps4Img,
