@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { ButtonC } from './ButtonElements'
-import useGlobalStates from '../../store/globalStates/useGlobalStates'
+import useGlobalStates from '../../../store/globalStates/useGlobalStates'
 
 const Button = props => {
   const { state } = useGlobalStates()

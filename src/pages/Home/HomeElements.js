@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 import Layout from './../../constants/Layout'
 import Color from './../../constants/Color'
-import { GridWrapper } from './../../components/UI/StyledCss'
+import { GridWrapper } from './../../components/common/UI/StyledCss'
 
 export const HomePageContainer = styled.div`
   display: flex;

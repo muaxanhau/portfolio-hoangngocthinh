@@ -1,6 +1,6 @@
 import React, { useMemo, useCallback } from 'react'
 import { HeaderContainer, ButtonMenu } from './HeaderElements'
-import Title from './../Title/index'
+import Title from './../common/Title/index'
 import { FiMenu } from 'react-icons/fi'
 import { animateScroll as scroll } from 'react-scroll'
 import useGlobalStates from './../../store/globalStates/useGlobalStates'

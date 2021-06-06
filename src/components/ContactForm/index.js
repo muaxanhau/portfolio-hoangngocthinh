@@ -7,9 +7,9 @@ import {
   Textarea,
   RequiredIconWrapper
 } from './ContactFormElements'
-import InputText from './../UI/InputText/index'
-import Button from './../Button/index'
-import Backdrop from './../Backdrop/index'
+import InputText from './../common/InputText/index'
+import Button from './../common/Button/index'
+import Backdrop from './../common/Backdrop/index'
 import { BsArrowReturnLeft } from 'react-icons/bs'
 import DefaultValue from './../../constants/DefaultValue'
 import useGlobalStates from './../../store/globalStates/useGlobalStates'
@@ -79,6 +79,7 @@ const ContactForm = () => {
             placeholder='Email'
             label='email'
             register={register}
+            type='email'
             required
           />
           {alertRequired(errors.email?.type)}

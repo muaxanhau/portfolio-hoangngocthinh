@@ -4,13 +4,7 @@ import { AiFillInstagram, AiFillAndroid } from 'react-icons/ai'
 import { CgCodeSlash } from 'react-icons/cg'
 import { IoIosApps } from 'react-icons/io'
 import { GiArchiveResearch } from 'react-icons/gi'
-import pj1Img from './../../assets/images/pj1.png'
-import pj2Img from './../../assets/images/pj2.png'
-import pj3Img from './../../assets/images/pj3.png'
-import ps1Img from './../../assets/images/ps1.jpg'
-import ps2Img from './../../assets/images/ps2.jpg'
-import ps3Img from './../../assets/images/ps3.png'
-import ps4Img from './../../assets/images/ps4.jpg'
+import Images from './../../constants/Images'
 
 let iconSocialButtonSize = '60%'
 export const SocialButtonData = [
@@ -62,43 +56,43 @@ export const Card1Data = [
 
 export const Card2Data = [
   {
-    imgSrc: pj1Img,
+    imgSrc: Images.img03,
     title: 'BookStore Web App'
   },
   {
-    imgSrc: pj2Img,
+    imgSrc: Images.img04,
     title: 'Shop Management Desktop App'
   },
   {
-    imgSrc: pj3Img,
+    imgSrc: Images.img05,
     title: 'Virtual Wallet Mobile App'
   }
 ]
 
 export const Card3Data = [
   {
-    imgSrc: ps1Img,
+    imgSrc: Images.img06,
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
     author: 'Annie Elert',
     tag: 'Project Leader'
   },
   {
-    imgSrc: ps2Img,
+    imgSrc: Images.img07,
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
     author: 'Luna Pennis',
     tag: 'Project Analyst'
   },
   {
-    imgSrc: ps3Img,
+    imgSrc: Images.img08,
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
     author: 'Mikasa',
     tag: 'Website Designer'
   },
   {
-    imgSrc: ps4Img,
+    imgSrc: Images.img09,
     content:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
     author: 'Harry Port',

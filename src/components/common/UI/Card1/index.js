@@ -5,8 +5,8 @@ import {
   ContentContainer
 } from './Card1Elements'
 import Title from './../../Title/index'
-import Color from './../../../constants/Color'
-import useGlobalStates from './../../../store/globalStates/useGlobalStates'
+import Color from './../../../../constants/Color'
+import useGlobalStates from './../../../../store/globalStates/useGlobalStates'
 
 const Card1 = props => {
   const { state } = useGlobalStates()

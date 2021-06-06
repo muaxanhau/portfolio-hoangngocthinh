@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import Title from './../Title/index'
-import Color from './../../constants/Color'
+import Color from './../../../constants/Color'
 
 import {
   BackdropContainer,

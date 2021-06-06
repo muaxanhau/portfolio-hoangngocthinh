@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
 import { TitleContainer } from './TitleElements'
-import useGlobalStates from './../../store/globalStates/useGlobalStates'
+import useGlobalStates from './../../../store/globalStates/useGlobalStates'
 
 const Title = props => {
   const { state } = useGlobalStates()

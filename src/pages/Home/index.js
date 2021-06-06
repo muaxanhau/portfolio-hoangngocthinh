@@ -17,17 +17,16 @@ import {
   ContactContentWrapper
 } from './HomeElements'
 import { v4 as uuidv4 } from 'uuid'
-import avtImg from './../../assets/images/avt.jpg'
-import Button from './../../components/Button/index'
-import introImg from './../../assets/images/intro.jpg'
-import Title from './../../components/Title/index'
+import Images from './../../constants/Images'
+import Button from './../../components/common/Button/index'
+import Title from './../../components/common/Title/index'
 import Color from './../../constants/Color'
 import { SocialButtonData, Card1Data, Card2Data, Card3Data } from './HomeData'
 import useGlobalStates from './../../store/globalStates/useGlobalStates'
-import LayoutContent from './../../components/UI/LayoutContent/index'
-import Card1 from './../../components/UI/Card1/index'
-import Card2 from './../../components/UI/Card2/index'
-import Card3 from './../../components/UI/Card3/index'
+import LayoutContent from './../../components/common/UI/LayoutContent/index'
+import Card1 from './../../components/common/UI/Card1/index'
+import Card2 from './../../components/common/UI/Card2/index'
+import Card3 from './../../components/common/UI/Card3/index'
 import ContactForm from './../../components/ContactForm/index'
 
 const HomePage = () => {
@@ -37,7 +36,7 @@ const HomePage = () => {
     <HomePageContainer>
       <ContentContainer id='home'>
         <HomeContainer>
-          <Avatar src={avtImg} alt='Hoàng Ngọc Thịnh' />
+          <Avatar src={Images.img01} alt='Hoàng Ngọc Thịnh' />
           <Introduce>
             <Title
               size='size-m'
@@ -93,7 +92,7 @@ const HomePage = () => {
                 the one to do it.
               </p>
             </AboutText>
-            <AboutImage src={introImg} alt='About Me'></AboutImage>
+            <AboutImage src={Images.img02} alt='About Me'></AboutImage>
           </AboutContentWrapper>
         </LayoutContent>
       </ContentContainer>

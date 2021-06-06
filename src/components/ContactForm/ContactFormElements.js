@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { GridWrapper, InputStyle } from './../../components/UI/StyledCss'
+import { GridWrapper, InputStyle } from './../../components/common/UI/StyledCss'
 import Color from './../../constants/Color'
 import Layout from './../../constants/Layout'
 

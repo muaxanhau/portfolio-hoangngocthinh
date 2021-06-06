@@ -8,8 +8,8 @@ import {
   TagWrapper
 } from './Card3Elements'
 import Title from './../../Title/index'
-import Color from './../../../constants/Color'
-import useGlobalStates from './../../../store/globalStates/useGlobalStates'
+import Color from './../../../../constants/Color'
+import useGlobalStates from './../../../../store/globalStates/useGlobalStates'
 
 const Card3 = props => {
   const { state } = useGlobalStates()

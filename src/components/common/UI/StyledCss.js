@@ -1,6 +1,6 @@
 import { css } from 'styled-components'
-import Layout from './../../constants/Layout'
-import Color from './../../constants/Color'
+import Layout from './../../../constants/Layout'
+import Color from './../../../constants/Color'
 
 export const GridWrapper = css`
   width: 100%;

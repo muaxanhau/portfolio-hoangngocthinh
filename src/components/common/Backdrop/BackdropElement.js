@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import Color from './../../constants/Color'
+import Color from '../../../constants/Color'
 
 export const BackdropContainer = styled.div`
   z-index: 1000;
