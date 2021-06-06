@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio-hoangngocthinh/static/css/main.02088877.chunk.css",
-    "main.js": "/portfolio-hoangngocthinh/static/js/main.8721c46e.chunk.js",
-    "main.js.map": "/portfolio-hoangngocthinh/static/js/main.8721c46e.chunk.js.map",
+    "main.js": "/portfolio-hoangngocthinh/static/js/main.974463d7.chunk.js",
+    "main.js.map": "/portfolio-hoangngocthinh/static/js/main.974463d7.chunk.js.map",
     "runtime-main.js": "/portfolio-hoangngocthinh/static/js/runtime-main.2911185e.js",
     "runtime-main.js.map": "/portfolio-hoangngocthinh/static/js/runtime-main.2911185e.js.map",
     "static/js/2.f5cc6ab2.chunk.js": "/portfolio-hoangngocthinh/static/js/2.f5cc6ab2.chunk.js",
@@ -10,20 +10,20 @@
     "index.html": "/portfolio-hoangngocthinh/index.html",
     "static/css/main.02088877.chunk.css.map": "/portfolio-hoangngocthinh/static/css/main.02088877.chunk.css.map",
     "static/js/2.f5cc6ab2.chunk.js.LICENSE.txt": "/portfolio-hoangngocthinh/static/js/2.f5cc6ab2.chunk.js.LICENSE.txt",
-    "static/media/avt.75ab69a3.jpg": "/portfolio-hoangngocthinh/static/media/avt.75ab69a3.jpg",
-    "static/media/intro.a17bb1de.jpg": "/portfolio-hoangngocthinh/static/media/intro.a17bb1de.jpg",
-    "static/media/pj1.83336e13.png": "/portfolio-hoangngocthinh/static/media/pj1.83336e13.png",
-    "static/media/pj2.7f9b2e2b.png": "/portfolio-hoangngocthinh/static/media/pj2.7f9b2e2b.png",
-    "static/media/pj3.f46d384b.png": "/portfolio-hoangngocthinh/static/media/pj3.f46d384b.png",
-    "static/media/ps1.61d2cfe9.jpg": "/portfolio-hoangngocthinh/static/media/ps1.61d2cfe9.jpg",
-    "static/media/ps2.b2db2634.jpg": "/portfolio-hoangngocthinh/static/media/ps2.b2db2634.jpg",
-    "static/media/ps3.c6b123e7.png": "/portfolio-hoangngocthinh/static/media/ps3.c6b123e7.png",
-    "static/media/ps4.c47756ac.jpg": "/portfolio-hoangngocthinh/static/media/ps4.c47756ac.jpg"
+    "static/media/01.75ab69a3.jpg": "/portfolio-hoangngocthinh/static/media/01.75ab69a3.jpg",
+    "static/media/02.a17bb1de.jpg": "/portfolio-hoangngocthinh/static/media/02.a17bb1de.jpg",
+    "static/media/03.83336e13.png": "/portfolio-hoangngocthinh/static/media/03.83336e13.png",
+    "static/media/04.7f9b2e2b.png": "/portfolio-hoangngocthinh/static/media/04.7f9b2e2b.png",
+    "static/media/05.f46d384b.png": "/portfolio-hoangngocthinh/static/media/05.f46d384b.png",
+    "static/media/06.61d2cfe9.jpg": "/portfolio-hoangngocthinh/static/media/06.61d2cfe9.jpg",
+    "static/media/07.b2db2634.jpg": "/portfolio-hoangngocthinh/static/media/07.b2db2634.jpg",
+    "static/media/08.c6b123e7.png": "/portfolio-hoangngocthinh/static/media/08.c6b123e7.png",
+    "static/media/09.c47756ac.jpg": "/portfolio-hoangngocthinh/static/media/09.c47756ac.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2911185e.js",
     "static/js/2.f5cc6ab2.chunk.js",
     "static/css/main.02088877.chunk.css",
-    "static/js/main.8721c46e.chunk.js"
+    "static/js/main.974463d7.chunk.js"
   ]
 }
