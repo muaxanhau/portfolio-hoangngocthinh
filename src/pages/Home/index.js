@@ -116,7 +116,7 @@ const HomePage = () => {
       <ContentContainer id='project'>
         <LayoutContent
           title='Recent Work'
-          intro='So, what dreams have I helped make it come true? What have i done?'
+          intro='So, what dreams have I helped make it come true? What have I done?'
         >
           <ProjectContentWrapper isMenuOpen={state.isMenuOpen}>
             {Card2Data.map(item => (

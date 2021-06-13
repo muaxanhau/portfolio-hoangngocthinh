@@ -73,29 +73,15 @@ export const Card3Data = [
   {
     imgSrc: Images.img06,
     content:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
-    author: 'Annie Elert',
+      '"He is a hard worker. Quickly adapt to the working environment. Always complete the assigned work well."',
+    author: 'Cao Thanh Phu',
     tag: 'Project Leader'
   },
   {
     imgSrc: Images.img07,
     content:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
-    author: 'Luna Pennis',
-    tag: 'Project Analyst'
-  },
-  {
-    imgSrc: Images.img08,
-    content:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
-    author: 'Mikasa',
-    tag: 'Website Designer'
-  },
-  {
-    imgSrc: Images.img09,
-    content:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore veritatis similique dolore voluptatem non provident.',
-    author: 'Harry Port',
-    tag: 'Consultants'
+      '"The app helps a lot in classifying products, making everything faster and more convenient. In addition, the app is stable, the filter data is also quite accurate."',
+    author: 'Le Thi My Ha',
+    tag: 'Client'
   }
 ]
